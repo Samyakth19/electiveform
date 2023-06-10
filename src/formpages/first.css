@@ -1,0 +1,30 @@
+:root {
+  --borderradius: 5px;
+}
+form {
+  /* border: 2px solid black; */
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0px 0px 13px 1px rgb(54, 230, 209);
+  padding: 10px 0px;
+}
+
+form input[placeholder] {
+  text-align: center;
+  margin: 15px 10px;
+  outline: none;
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0px 0px 12px 2px grey;
+}
+form input[placeholder]:focus {
+  box-shadow: 0px 0px 12px 2px rgb(7, 185, 7);
+}
+
+form .ral {
+  margin: 5px 5px;
+}
+form .nextbtn {
+  margin-top: 10px;
+}

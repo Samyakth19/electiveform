@@ -1,0 +1,24 @@
+.secondrow {
+  height: calc(100vh - 80px);
+}
+
+.secondcol {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 50px;
+}
+.coursewiseform {
+  padding: 20px 40px;
+  display: inline-block;
+  border-radius: 20px;
+  text-align: start;
+  box-shadow: 0px 0px 13px 1px rgb(54, 230, 209);
+  /* padding: 10px 0px; */
+}
+
+.nexxtbtn {
+  margin: 20px 10px;
+  width: 100% !important;
+}
